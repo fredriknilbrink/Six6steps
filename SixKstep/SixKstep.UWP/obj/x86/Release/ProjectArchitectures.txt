@@ -1,0 +1,1 @@
+C:\Users\fredr\documents\visual studio 2017\Projects\SixKstep\SixKstep\SixKstep.UWP\SixKstep.UWP.csproj;x86

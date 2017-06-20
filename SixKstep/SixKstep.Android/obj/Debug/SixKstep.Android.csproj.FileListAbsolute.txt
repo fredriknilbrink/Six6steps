@@ -1,0 +1,6 @@
+C:\Users\fredr\Documents\Visual Studio 2017\Projects\SixKstep\SixKstep\SixKstep.Android\obj\Debug\SixKstep.Droid.App.xaml.g.cs
+C:\Users\fredr\Documents\Visual Studio 2017\Projects\SixKstep\SixKstep\SixKstep.Android\obj\Debug\SixKstep.Droid.Views.MainPage.xaml.g.cs
+C:\Users\fredr\Documents\Visual Studio 2017\Projects\SixKstep\SixKstep\SixKstep.Android\obj\Debug\SixKstep.Droid.Views.HistoryPage.xaml.g.cs
+C:\Users\fredr\Documents\Visual Studio 2017\Projects\SixKstep\SixKstep\SixKstep.Android\obj\Debug\SixKstep.Droid.Views.SettingsPage.xaml.g.cs
+C:\Users\fredr\documents\visual studio 2017\Projects\SixKstep\SixKstep\SixKstep.Android\obj\Debug\SixKstep.Android.csprojResolveAssemblyReference.cache
+C:\Users\fredr\documents\visual studio 2017\Projects\SixKstep\SixKstep\SixKstep.Android\obj\Debug\SixKstep.Droid.MainPage.xaml.g.cs

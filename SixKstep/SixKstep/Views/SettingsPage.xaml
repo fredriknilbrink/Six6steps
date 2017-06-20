@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SixKstep.SettingsPage">
+    <StackLayout   Margin="40" >
+        <Label FontSize="Large" HorizontalOptions="Center" Text="Inställningar" TextColor="Black" >
+        </Label>
+        <Label FontSize="Medium" Text="Dagligt Stegmål" TextColor="Black" >
+        </Label>
+        <Entry x:Name="entGoal" ></Entry>
+        <Label FontSize="Medium" Text="Längd på Historik" TextColor="Black" >
+        </Label>
+        <Entry x:Name="entHistoryLength" ></Entry>
+        <Label FontSize="Medium" Text="Lösenord för att låsa upp app:" TextColor="Black" >
+        </Label>
+        <Entry x:Name="entPassword" ></Entry>
+
+        <Button x:Name="butInvisible"  HorizontalOptions="CenterAndExpand"  Margin="50"></Button>
+        <Button x:Name="butDone" HorizontalOptions="Start" Margin="20" Text="Spara"></Button>
+    </StackLayout>
+</ContentPage>

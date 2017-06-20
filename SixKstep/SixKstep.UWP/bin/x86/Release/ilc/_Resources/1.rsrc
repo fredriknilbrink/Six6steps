@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SixKstep"
+             x:Class="SixKstep.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="mnuSettings" Name="Inställningar" Activated="Settings_Activated" Order="Primary"   >
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource"
+      WinPhone="Toolkit.Content/ApplicationBar.Add.png" />
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+        <ToolbarItem x:Name="mnuHistory" Name="Historik" Activated="History_Activated" Order="Primary"   >
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource"
+      WinPhone="Toolkit.Content/ApplicationBar.Add.png" />
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <StackLayout Padding="0,20,0,0" IsVisible="True">
+        <StackLayout x:Name="stackUnlock" IsVisible="False">
+            <Image x:Name="imgHai" Source="hai.jpg" />
+            <Label FontSize="Medium" Text="Lösenord för att låsa upp app:" TextColor="Black" >
+            </Label>
+            <Entry x:Name="entPassword" ></Entry>
+            <Button x:Name="butDone" HorizontalOptions="Start" Margin="20" Text="Lås upp" Clicked="ButDone_Clicked"></Button>
+        </StackLayout>
+        <StackLayout x:Name="infoStack">
+            <Label Text="Steg idag"
+             VerticalOptions="Start"
+             HorizontalTextAlignment="Center"                  
+             FontSize="Large"         
+             TextColor="Black" />
+
+            <Label Text="Step Counter"
+             VerticalOptions="Start"
+             HorizontalTextAlignment="Center"         
+             IsVisible="true"
+             FontSize="60"
+             FontAttributes="Bold"
+             TextColor="Green"          
+             x:Name="lblSteps" 
+             Margin="20"/>
+            <StackLayout BackgroundColor="Black" Padding="2">
+                <Grid>
+                    <BoxView x:Name="boxProgress1" WidthRequest="40" HeightRequest="50" HorizontalOptions="StartAndExpand" Color="White" />
+
+                    <BoxView x:Name="boxProgress2" WidthRequest="40" HeightRequest="50" HorizontalOptions="Start" Color="Green" />
+                    <Label 
+             x:Name="lblPercent"
+             VerticalOptions="Start"
+             HorizontalTextAlignment="Center"         
+             IsVisible="true"
+             FontSize="20"
+             FontAttributes="Bold"
+             TextColor="Black"          
+            
+             Margin="20"/>
+                </Grid>
+
+            </StackLayout>
+        </StackLayout>
+        <StackLayout x:Name="imgLogo" IsVisible="True">
+            <Image  Source="hai.jpg" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
