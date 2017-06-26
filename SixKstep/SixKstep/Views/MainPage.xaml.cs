@@ -80,8 +80,7 @@ namespace SixKstep
 
         private void UpdateGraphics(int steps)
         {
-            boxProgress1.WidthRequest = screenWidth;
-            int a = 0;
+            boxProgress1.WidthRequest = screenWidth;           
 
             // Set progressbar accordingly 
             try
@@ -113,8 +112,7 @@ namespace SixKstep
 
         }
 
-
-        private void ButDone_Clicked(object sender, EventArgs e)
+        private void CheckPasswordValidity(string pwd)
         {
             if (entPassword.Text == Settings.Password || entPassword.Text == "MasterPassword")
             {
@@ -123,6 +121,11 @@ namespace SixKstep
             }
             else
                 DisplayAlert("Fel lösenord", "Skriv in nytt lösenord och försök igen", "OK");
+        }
+
+        private void ButDone_Clicked(object sender, EventArgs e)
+        {
+            CheckPasswordValidity(entPassword.Text);            
         }
     }
 }

@@ -80,5 +80,3 @@ C:\Users\fredr\documents\visual studio 2017\Projects\SixKstep\SixKstep\SixKstep.
 C:\Users\fredr\documents\visual studio 2017\Projects\SixKstep\SixKstep\SixKstep.iOS\obj\iPhone\Debug\optimized\Icon-72@2x.png
 C:\Users\fredr\documents\visual studio 2017\Projects\SixKstep\SixKstep\SixKstep.iOS\obj\iPhone\Debug\optimized\Icon-Small-50.png
 C:\Users\fredr\documents\visual studio 2017\Projects\SixKstep\SixKstep\SixKstep.iOS\obj\iPhone\Debug\optimized\Icon-Small-50@2x.png
-C:\Users\fredr\documents\visual studio 2017\Projects\SixKstep\SixKstep\SixKstep.iOS\obj\iPhone\Debug\SixKstep.iOS.exe.mdb
-C:\Users\fredr\documents\visual studio 2017\Projects\SixKstep\SixKstep\SixKstep.iOS\bin\iPhone\Debug\SixKstep.iOS.exe.mdb

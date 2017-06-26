@@ -11,7 +11,7 @@
 namespace SixKstep {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fredr\\documents\\visual studio 2017\\Projects\\SixKstep\\SixKstep\\SixKstep\\V" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fredr\\Documents\\Visual Studio 2017\\Projects\\SixKstep\\SixKstep\\SixKstep\\V" +
         "iews\\HistoryPage.xaml")]
     public partial class HistoryPage : global::Xamarin.Forms.ContentPage {
         

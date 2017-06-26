@@ -10,19 +10,10 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>MinimumOSVersion</key>
-	<string>10.3</string>
 	<key>CFBundleIdentifier</key>
 	<string>se.tii.steps</string>
 	<key>CFBundleVersion</key>
-	<string>1.11</string>
+	<string>1.2</string>
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>Icon@2x.png</string>
@@ -33,7 +24,7 @@
 		<string>Icon-Small-40@2x.png</string>
 	</array>
 	<key>CFBundleShortVersionString</key>
-	<string>1.11</string>
+	<string>1.2</string>
 	<key>UIStatusBarTintParameters</key>
 	<dict>
 		<key>UINavigationBar</key>
@@ -50,7 +41,11 @@
 	<string>6000 Steg</string>
 	<key>NSMotionUsageDescription</key>
 	<string>Use Motion</string>
-	<key>UIMainStoryboardFile~ipad</key>
-	<string>LaunchScreen</string>
+	<key>MinimumOSVersion</key>
+	<string>10.3</string>
+	<key>XSAppIconAssets</key>
+	<string>Resources/Media1.xcassets/AppIcons.appiconset</string>
+	<key>XSLaunchImageAssets</key>
+	<string>Resources/Media1.xcassets/LaunchImages.launchimage</string>
 </dict>
 </plist>

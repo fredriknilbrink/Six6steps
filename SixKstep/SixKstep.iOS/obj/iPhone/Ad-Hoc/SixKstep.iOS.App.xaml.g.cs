@@ -11,7 +11,7 @@
 namespace SixKstep {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fredr\\documents\\visual studio 2017\\Projects\\SixKstep\\SixKstep\\SixKstep\\A" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fredr\\Documents\\Visual Studio 2017\\Projects\\SixKstep\\SixKstep\\SixKstep\\A" +
         "pp.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         

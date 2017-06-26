@@ -22379,10 +22379,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\fredr\\documents\\visual studio 2017\\Projects\\SixKstep\\SixKstep\\SixKstep.UWP\\SixKstep.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\fredr\\Documents\\Visual Studio 2017\\Projects\\SixKstep\\SixKstep\\SixKstep.UWP\\SixKstep.UWP.csproj",
       "projectName": "SixKstep.UWP",
-      "projectPath": "C:\\Users\\fredr\\documents\\visual studio 2017\\Projects\\SixKstep\\SixKstep\\SixKstep.UWP\\SixKstep.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\fredr\\documents\\visual studio 2017\\Projects\\SixKstep\\SixKstep\\SixKstep.UWP\\project.json",
+      "projectPath": "C:\\Users\\fredr\\Documents\\Visual Studio 2017\\Projects\\SixKstep\\SixKstep\\SixKstep.UWP\\SixKstep.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\fredr\\Documents\\Visual Studio 2017\\Projects\\SixKstep\\SixKstep\\SixKstep.UWP\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

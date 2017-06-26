@@ -11,7 +11,7 @@
 namespace SixKstep {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fredr\\documents\\visual studio 2017\\Projects\\SixKstep\\SixKstep\\SixKstep\\V" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fredr\\Documents\\Visual Studio 2017\\Projects\\SixKstep\\SixKstep\\SixKstep\\V" +
         "iews\\SettingsPage.xaml")]
     public partial class SettingsPage : global::Xamarin.Forms.ContentPage {
         
